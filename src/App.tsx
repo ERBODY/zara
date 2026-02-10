@@ -108,7 +108,7 @@ export default function App() {
                 🌙 My Beautiful Moon 🌙
               </div>
               <p className="text-xl text-purple-100 relative z-10">
-                Born February 10, 2010 - A special day for a very special girl, Zara ❤️
+                Born 2010/02/10 - A special day for a very special girl, Zara ❤️
               </p>
             </div>
 
@@ -161,12 +161,12 @@ export default function App() {
 
               <div className="bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 rounded-2xl p-8 mb-8 border-2 border-indigo-200 shadow-lg text-center">
                 <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                  🌙 The Moon on Your Birth Day - February 10, 2010
+                  🌙 The Moon on Your Birth Day - 2010/02/10
                 </h3>
                 <div className="flex flex-col items-center mb-6">
                   <img
                     src="https://lunaf.com/img/moon/phase-29.webp"
-                    alt="Moon phase on February 10, 2010"
+                    alt="Moon phase on 2010/02/10"
                     className="mb-4 w-32 h-32 transition-transform duration-500 cursor-pointer animate-pulse"
                     onClick={() => setMoonLarge(true)}
                   />
@@ -176,7 +176,7 @@ export default function App() {
                       <div className="relative" onClick={e => e.stopPropagation()}>
                         <img
                           src="https://lunaf.com/img/moon/phase-29.webp"
-                          alt="Moon phase on February 10, 2010"
+                          alt="Moon phase on 2010/02/10"
                           className="w-[90vw] max-w-md h-auto rounded-xl shadow-2xl border-4 border-white"
                           style={{ animation: 'none' }}
                         />

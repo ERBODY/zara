@@ -105,7 +105,7 @@ export default function App() {
                 Happy 16th Birthday, Zara!
               </h1>
               <div className="text-5xl font-elegant text-white mb-4 relative z-10">
-                🌙 My Beautiful Moon 🌙
+                🌙 My Zara 🌙
               </div>
               <p className="text-xl text-purple-100 relative z-10">
                 Born 2010/02/10 - A special day for a very special girl, Zara ❤️
@@ -254,7 +254,7 @@ export default function App() {
                     Like the moon that guides travelers through the night, may you always find your way to happiness.
                   </p>
                   <div className="mt-6 text-2xl font-elegant text-purple-600">
-                    Happy 16th Birthday, My Beautiful Moon! 🌙🎂✨
+                    Happy 16th Birthday, My Zara! 🌙🎂✨
                   </div>
                 </div>
               </div>

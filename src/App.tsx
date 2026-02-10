@@ -165,7 +165,7 @@ export default function App() {
                 </h3>
                 <div className="flex flex-col items-center mb-6">
                   <img
-                    src="https://lunaf.com/img/moon/phase-29.webp"
+                    src="https://lunaf.com/img/moon/h-phase-29.png"
                     alt="Moon phase on 2010/02/10"
                     className="mb-4 w-32 h-32 transition-transform duration-500 cursor-pointer animate-pulse"
                     onClick={() => setMoonLarge(true)}
@@ -175,7 +175,7 @@ export default function App() {
                     <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50" onClick={() => setMoonLarge(false)}>
                       <div className="relative" onClick={e => e.stopPropagation()}>
                         <img
-                          src="https://lunaf.com/img/moon/phase-29.webp"
+                          src="https://lunaf.com/img/moon/h-phase-29.png"
                           alt="Moon phase on 2010/02/10"
                           className="w-[90vw] max-w-md h-auto rounded-xl shadow-2xl border-4 border-white"
                           style={{ animation: 'none' }}

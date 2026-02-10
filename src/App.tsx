@@ -122,7 +122,7 @@ export default function App() {
                   <p className="text-xl text-gray-700 leading-relaxed mb-6">
                     Hayati, on this beautiful day, I want you to know how incredibly special you are.
                     Your kindness, your laughter, and your amazing spirit make the world a brighter place.
-                    I hope your 15th birthday is filled with all your favorite things and surrounded by love.
+                    I hope your 16th birthday is filled with all your favorite things and surrounded by love.
                   </p>
                   <div className="h-16 flex items-center justify-center">
                     <p className="text-lg text-purple-600 font-medium italic transition-all duration-500 animate-fade-in">
@@ -227,7 +227,7 @@ export default function App() {
                 <div className="bg-gradient-to-br from-indigo-100 to-indigo-50 rounded-xl p-6 text-center border-2 border-indigo-200 hover:shadow-lg transition-all duration-300">
                   <div className="text-4xl mb-3">⭐</div>
                   <h3 className="text-xl font-bold text-gray-800 mb-2">Shining Star</h3>
-                  <p className="text-gray-700">At 15, you're becoming the brightest star in your own constellation</p>
+                  <p className="text-gray-700">At 16, you're becoming the brightest star in your own constellation</p>
                 </div>
                 <div className="bg-gradient-to-br from-pink-100 to-pink-50 rounded-xl p-6 text-center border-2 border-pink-200 hover:shadow-lg transition-all duration-300">
                   <div className="text-4xl mb-3">🌟</div>
@@ -248,13 +248,13 @@ export default function App() {
                 <div className="text-center">
                   <div className="text-6xl mb-4">💖</div>
                   <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
-                    Hayati, I wanted to create something special just for you on your 15th birthday.
+                    Hayati, I wanted to create something special just for you on your 16th birthday.
                     You mean so much to me, and I hope this day brings you as much happiness as you bring to others.
                     May your heart be filled with joy, your day be filled with laughter, and your year ahead be filled with wonderful surprises.
                     Like the moon that guides travelers through the night, may you always find your way to happiness.
                   </p>
                   <div className="mt-6 text-2xl font-elegant text-purple-600">
-                    Happy 15th Birthday, My Beautiful Moon! 🌙🎂✨
+                    Happy 16th Birthday, My Beautiful Moon! 🌙🎂✨
                   </div>
                 </div>
               </div>

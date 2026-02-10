@@ -56,18 +56,18 @@ export default function App() {
       const birthDate = new Date('2010-02-10T00:00:00');
       const now = new Date();
       const diffInMs = now.getTime() - birthDate.getTime();
-      
+
       const days = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
       const hours = Math.floor((diffInMs % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
       const minutes = Math.floor((diffInMs % (1000 * 60 * 60)) / (1000 * 60));
       const seconds = Math.floor((diffInMs % (1000 * 60)) / 1000);
-      
+
       setTimeElapsed({ days, hours, minutes, seconds });
     };
 
     calculateTimeElapsed();
     const timer = setInterval(calculateTimeElapsed, 1000);
-    
+
     return () => clearInterval(timer);
   }, []);
 
@@ -120,8 +120,8 @@ export default function App() {
                 </h2>
                 <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-8 border-2 border-purple-200 shadow-lg">
                   <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                    Hayati, on this beautiful day, I want you to know how incredibly special you are. 
-                    Your kindness, your laughter, and your amazing spirit make the world a brighter place. 
+                    Hayati, on this beautiful day, I want you to know how incredibly special you are.
+                    Your kindness, your laughter, and your amazing spirit make the world a brighter place.
                     I hope your 15th birthday is filled with all your favorite things and surrounded by love.
                   </p>
                   <div className="h-16 flex items-center justify-center">
@@ -161,12 +161,12 @@ export default function App() {
 
               <div className="bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 rounded-2xl p-8 mb-8 border-2 border-indigo-200 shadow-lg text-center">
                 <h3 className="text-2xl font-bold text-gray-800 mb-6">
-                  🌙 The Moon on Your Birth Day - July 7, 2010
+                  🌙 The Moon on Your Birth Day - February 10, 2010
                 </h3>
                 <div className="flex flex-col items-center mb-6">
-                  <img 
-                    src="https://lunaf.com/img/moon/h-phase-27.png" 
-                    alt="Moon phase on July 7, 2010" 
+                  <img
+                    src="https://lunaf.com/img/moon/phase-29.webp"
+                    alt="Moon phase on February 10, 2010"
                     className="mb-4 w-32 h-32 transition-transform duration-500 cursor-pointer animate-pulse"
                     onClick={() => setMoonLarge(true)}
                   />
@@ -174,9 +174,9 @@ export default function App() {
                   {moonLarge && (
                     <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50" onClick={() => setMoonLarge(false)}>
                       <div className="relative" onClick={e => e.stopPropagation()}>
-                        <img 
-                          src="https://lunaf.com/img/moon/h-phase-27.png" 
-                          alt="Moon phase on July 7, 2010" 
+                        <img
+                          src="https://lunaf.com/img/moon/phase-29.webp"
+                          alt="Moon phase on February 10, 2010"
                           className="w-[90vw] max-w-md h-auto rounded-xl shadow-2xl border-4 border-white"
                           style={{ animation: 'none' }}
                         />
@@ -187,7 +187,7 @@ export default function App() {
                     </div>
                   )}
                   <p className="text-lg text-gray-700 max-w-2xl">
-                    This was the moon phase when you were born - a waning crescent, symbolizing new beginnings and the promise of light to come. 
+                    This was the moon phase when you were born - a waning crescent, symbolizing new beginnings and the promise of light to come.
                     Just like you brought light into this world on that special day! 🌟
                   </p>
                 </div>
@@ -201,12 +201,11 @@ export default function App() {
                   <div className="text-4xl mb-6">🌙✨</div>
                   <div className="max-w-3xl mx-auto">
                     {arabicPoem.map((line, index) => (
-                      <p 
-                        key={index} 
-                        className={`text-lg leading-relaxed mb-2 ${
-                          line === "" ? "mb-4" : "text-gray-700"
-                        }`}
-                        style={{ 
+                      <p
+                        key={index}
+                        className={`text-lg leading-relaxed mb-2 ${line === "" ? "mb-4" : "text-gray-700"
+                          }`}
+                        style={{
                           fontFamily: 'Arial, sans-serif',
                           direction: 'rtl',
                           textAlign: 'center'
@@ -249,8 +248,8 @@ export default function App() {
                 <div className="text-center">
                   <div className="text-6xl mb-4">💖</div>
                   <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
-                    Hayati, I wanted to create something special just for you on your 15th birthday. 
-                    You mean so much to me, and I hope this day brings you as much happiness as you bring to others. 
+                    Hayati, I wanted to create something special just for you on your 15th birthday.
+                    You mean so much to me, and I hope this day brings you as much happiness as you bring to others.
                     May your heart be filled with joy, your day be filled with laughter, and your year ahead be filled with wonderful surprises.
                     Like the moon that guides travelers through the night, may you always find your way to happiness.
                   </p>

@@ -8,7 +8,7 @@ export default function App() {
   const [timeElapsed, setTimeElapsed] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
 
   const personalMessages = [
-    "You bring so much joy and light into this world, Zara! 🌟",
+    "You bring so much joy and light into this world, Hayati! 🌟",
     "Your smile has the power to brighten even the darkest days ✨",
     "I'm so grateful to have someone as wonderful as you in my life 💕",
     "May this new year of your life be filled with endless happiness 🎉",
@@ -120,7 +120,7 @@ export default function App() {
                 </h2>
                 <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-8 border-2 border-purple-200 shadow-lg">
                   <p className="text-xl text-gray-700 leading-relaxed mb-6">
-                    Zara, on this beautiful day, I want you to know how incredibly special you are. 
+                    Hayati, on this beautiful day, I want you to know how incredibly special you are. 
                     Your kindness, your laughter, and your amazing spirit make the world a brighter place. 
                     I hope your 15th birthday is filled with all your favorite things and surrounded by love.
                   </p>
@@ -249,7 +249,7 @@ export default function App() {
                 <div className="text-center">
                   <div className="text-6xl mb-4">💖</div>
                   <p className="text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto">
-                    Zara, I wanted to create something special just for you on your 15th birthday. 
+                    Hayati, I wanted to create something special just for you on your 15th birthday. 
                     You mean so much to me, and I hope this day brings you as much happiness as you bring to others. 
                     May your heart be filled with joy, your day be filled with laughter, and your year ahead be filled with wonderful surprises.
                     Like the moon that guides travelers through the night, may you always find your way to happiness.

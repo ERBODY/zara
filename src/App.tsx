@@ -102,7 +102,7 @@ export default function App() {
             <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 p-8 text-center relative overflow-hidden">
               <div className="absolute inset-0 bg-white opacity-10 animate-pulse"></div>
               <h1 className="text-6xl font-bold text-white mb-4 animate-pulse relative z-10">
-                Happy 15th Birthday, Zara!
+                Happy 16th Birthday, Zara!
               </h1>
               <div className="text-5xl font-elegant text-white mb-4 relative z-10">
                 🌙 My Beautiful Moon 🌙

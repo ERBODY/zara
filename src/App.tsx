@@ -53,7 +53,7 @@ export default function App() {
 
   useEffect(() => {
     const calculateTimeElapsed = () => {
-      const birthDate = new Date('2010-07-07T00:00:00');
+      const birthDate = new Date('2010-02-10T00:00:00');
       const now = new Date();
       const diffInMs = now.getTime() - birthDate.getTime();
       
@@ -108,7 +108,7 @@ export default function App() {
                 🌙 My Beautiful Moon 🌙
               </div>
               <p className="text-xl text-purple-100 relative z-10">
-                Born July 7, 2010 - A special day for a very special girl, Zara ❤️
+                Born February 10, 2010 - A special day for a very special girl, Zara ❤️
               </p>
             </div>
 

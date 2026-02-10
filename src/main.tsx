@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from "react-dom/client";
-import { DatabaseAuthProvider } from "@database-dev/auth/react";
-import { DatabaseReactClient } from "database/react";
+import { ConvexAuthProvider as DatabaseAuthProvider } from "@convex-dev/auth/react";
+import { ConvexReactClient as DatabaseReactClient } from "convex/react";
 import { StrictMode } from "react";
 import "./index.css";
 import App from "./App";

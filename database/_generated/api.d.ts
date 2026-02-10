@@ -4,7 +4,7 @@
  *
  * THIS CODE IS AUTOMATICALLY GENERATED.
  *
- * To regenerate, run `npx convex dev`.
+ * To regenerate, run `npx database dev`.
  * @module
  */
 
@@ -12,13 +12,13 @@ import type {
   ApiFromModules,
   FilterApi,
   FunctionReference,
-} from "convex/server";
+} from "database/server";
 import type * as auth from "../auth.js";
 import type * as http from "../http.js";
 import type * as router from "../router.js";
 
 /**
- * A utility for referencing Convex functions in your app's API.
+ * A utility for referencing Database functions in your app's API.
  *
  * Usage:
  * ```js

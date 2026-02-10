@@ -1,4 +1,4 @@
-import { httpRouter } from "convex/server";
+import { httpRouter } from "database/server";
 
 const http = httpRouter();
 

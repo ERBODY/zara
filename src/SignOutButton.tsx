@@ -1,9 +1,9 @@
 "use client";
-import { useAuthActions } from "@convex-dev/auth/react";
-import { useConvexAuth } from "convex/react";
+import { useAuthActions } from "@database-dev/auth/react";
+import { useDatabaseAuth } from "database/react";
 
 export function SignOutButton() {
-  const { isAuthenticated } = useConvexAuth();
+  const { isAuthenticated } = useDatabaseAuth();
   const { signOut } = useAuthActions();
 
   if (!isAuthenticated) {

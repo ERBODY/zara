@@ -1,6 +1,6 @@
 /**
- * This script runs `npx @convex-dev/auth` to help with setting up
- * environment variables for Convex Auth.
+ * This script runs `npx @database-dev/auth` to help with setting up
+ * environment variables for Database Auth.
  *
  * You can safely delete it and remove it from package.json scripts.
  */
@@ -22,7 +22,7 @@ if (runOnceWorkflow && config.SETUP_SCRIPT_RAN !== undefined) {
   process.exit(0);
 }
 
-const result = spawnSync("npx", ["@convex-dev/auth", "--skip-git-check"], {
+const result = spawnSync("npx", ["@database-dev/auth", "--skip-git-check"], {
   stdio: "inherit",
 });
 

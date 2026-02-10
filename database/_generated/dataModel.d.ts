@@ -4,7 +4,7 @@
  *
  * THIS CODE IS AUTOMATICALLY GENERATED.
  *
- * To regenerate, run `npx convex dev`.
+ * To regenerate, run `npx database dev`.
  * @module
  */
 
@@ -13,17 +13,17 @@ import type {
   DocumentByName,
   TableNamesInDataModel,
   SystemTableNames,
-} from "convex/server";
-import type { GenericId } from "convex/values";
+} from "database/server";
+import type { GenericId } from "database/values";
 import schema from "../schema.js";
 
 /**
- * The names of all of your Convex tables.
+ * The names of all of your Database tables.
  */
 export type TableNames = TableNamesInDataModel<DataModel>;
 
 /**
- * The type of a document stored in Convex.
+ * The type of a document stored in Database.
  *
  * @typeParam TableName - A string literal type of the table name (like "users").
  */
@@ -33,10 +33,10 @@ export type Doc<TableName extends TableNames> = DocumentByName<
 >;
 
 /**
- * An identifier for a document in Convex.
+ * An identifier for a document in Database.
  *
- * Convex documents are uniquely identified by their `Id`, which is accessible
- * on the `_id` field. To learn more, see [Document IDs](https://docs.convex.dev/using/document-ids).
+ * Database documents are uniquely identified by their `Id`, which is accessible
+ * on the `_id` field. To learn more, see [Document IDs](https://docs.database.dev/using/document-ids).
  *
  * Documents can be loaded using `db.get(id)` in query and mutation functions.
  *
@@ -49,7 +49,7 @@ export type Id<TableName extends TableNames | SystemTableNames> =
   GenericId<TableName>;
 
 /**
- * A type describing your Convex data model.
+ * A type describing your Database data model.
  *
  * This type includes information about what tables you have, the type of
  * documents stored in those tables, and the indexes defined on them.

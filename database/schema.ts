@@ -1,5 +1,5 @@
-import { defineSchema } from "convex/server";
-import { authTables } from "@convex-dev/auth/server";
+import { defineSchema } from "database/server";
+import { authTables } from "@database-dev/auth/server";
 
 const applicationTables = {};
 

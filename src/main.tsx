@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from "react-dom/client";
-import { ConvexAuthProvider } from "@convex-dev/auth/react";
-import { ConvexReactClient } from "convex/react";
+import { DatabaseAuthProvider } from "@database-dev/auth/react";
+import { DatabaseReactClient } from "database/react";
 import { StrictMode } from "react";
 import "./index.css";
 import App from "./App";
@@ -35,19 +35,19 @@ class ErrorBoundary extends React.Component<{children: React.ReactNode}, {hasErr
   }
 }
 
-const convexUrl = import.meta.env.VITE_CONVEX_URL as string | undefined;
+const databaseUrl = import.meta.env.VITE_DATABASE_URL as string | undefined;
 let AppWithProviders = <App />;
 
-if (convexUrl) {
+if (databaseUrl) {
   try {
-    const convexClient = new ConvexReactClient(convexUrl);
+    const databaseClient = new DatabaseReactClient(databaseUrl);
     AppWithProviders = (
-      <ConvexAuthProvider client={convexClient}>
+      <DatabaseAuthProvider client={databaseClient}>
         <App />
-      </ConvexAuthProvider>
+      </DatabaseAuthProvider>
     );
   } catch (error) {
-    console.error('Failed to initialize Convex:', error);
+    console.error('Failed to initialize Database:', error);
     AppWithProviders = <App />;
   }
 }

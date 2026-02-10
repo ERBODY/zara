@@ -167,20 +167,20 @@ export default function App() {
                   <img
                     src="https://lunaf.com/img/moon/phase-29.webp"
                     alt="Moon phase on 2010/02/10"
-                    className="mb-6 w-64 h-64 md:w-80 md:h-80 rounded-full shadow-[0_0_40px_rgba(255,255,255,0.2)] transition-all duration-700 hover:scale-105 cursor-pointer object-contain"
+                    className="mb-4 w-32 h-32 transition-transform duration-500 cursor-pointer animate-pulse"
                     onClick={() => setMoonLarge(true)}
                   />
 
                   {moonLarge && (
-                    <div className="fixed inset-0 bg-black/90 backdrop-blur-sm flex items-center justify-center z-50 p-4" onClick={() => setMoonLarge(false)}>
-                      <div className="relative max-w-2xl w-full flex items-center justify-center" onClick={e => e.stopPropagation()}>
+                    <div className="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50" onClick={() => setMoonLarge(false)}>
+                      <div className="relative" onClick={e => e.stopPropagation()}>
                         <img
                           src="https://lunaf.com/img/moon/phase-29.webp"
                           alt="Moon phase on 2010/02/10"
-                          className="w-full h-auto rounded-3xl shadow-[0_0_100px_rgba(255,255,255,0.3)] border-2 border-white/20"
+                          className="w-[90vw] max-w-md h-auto rounded-xl shadow-2xl border-4 border-white"
                           style={{ animation: 'none' }}
                         />
-                        <button className="absolute -top-12 right-0 text-white text-4xl font-light hover:text-purple-300 transition" onClick={() => setMoonLarge(false)}>
+                        <button className="absolute top-2 right-2 bg-white rounded-full px-3 py-1 text-lg font-bold text-gray-700 shadow hover:bg-gray-200 transition" onClick={() => setMoonLarge(false)}>
                           &times;
                         </button>
                       </div>

@@ -1,0 +1,45 @@
+* [33ma8675af[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m fix: update vite config for custom domain
+* [33m37095b5[m fix: set BASE_URL for custom domain deployment
+[31m|[m * [33m89884a6[m[33m ([m[1;31morigin/main[m[33m)[m Add CNAME record for zarabirthday.ddns.net
+[31m|[m * [33me132aca[m Delete CNAME
+[31m|[m[31m/[m  
+* [33m92d8db0[m fix: correct YAML indentation for deploy step
+* [33m2c7d33c[m Make Convex optional for GitHub Pages
+* [33m61498e8[m[33m ([m[1;32mbackup-before-rebase[m[33m)[m Initial commit
+* [33mfb7aadd[m Update index.html
+* [33m8938a8a[m Update vite.config.ts
+* [33m0d7b0c3[m Update App.tsx
+* [33m4286f18[m Fix base path for custom domain
+* [33mede5622[m Create static.yml
+* [33m97e7b93[m Delete .github/workflows directory
+* [33mf32d1d5[m Create static.yml
+* [33mad7cb99[m Delete .github/workflows directory
+* [33m175cae0[m Update CNAME
+* [33ma63dbba[m Create CNAME
+* [33ma8be153[m Delete docs directory
+* [33m113853c[m Delete CNAME
+* [33m1e8e9f6[m Create CNAME
+* [33maa5c180[m Update CNAME
+* [33m38847cd[m Update static.yml
+* [33mf0ecc6e[m Create static.yml
+* [33m17828c7[m Delete .github/workflows directory
+* [33m392bd81[m Update static.yml
+* [33m07ed78d[m Update static.yml
+* [33m5b7c609[m Create static.yml
+* [33m9b8ddfa[m Initial commit with built site
+* [33m77538cd[m Update README.md
+* [33md8c30f7[m Delete .github/workflows directory
+* [33m04c1ab1[m Create CNAME
+* [33m0ae81bb[m Add files via upload
+* [33m0b92755[m Add files via upload
+* [33m44cf0c3[m Add files via upload
+* [33m148024d[m Delete index.html
+* [33m14d2127[m Add files via upload
+* [33m6197e13[m Delete google3ddd659a6045a0c1 (2).html
+* [33m09a8fa6[m Add files via upload
+* [33mc39418f[m Delete google3ddd659a6045a0c1 (1).html
+* [33m685c61f[m Add files via upload
+* [33me7e41b1[m Create sitemap.xml
+* [33mdb992f1[m Create static.yml
+* [33m1ab7572[m Create index.html
+* [33md344d74[m Initial commit

@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   
   return {
-    base: mode === 'production' ? (env.BASE_URL || '/') : '/',
+    base: mode === 'production' ? (env.BASE_URL || './') : './',
     plugins: [react()],
     resolve: { 
       alias: { 

@@ -21,7 +21,7 @@ export default defineConfig(({ mode }: ConfigEnv) => {
       outDir: 'dist',
       assetsDir: 'assets',
       sourcemap: mode !== 'production',
-      minify: mode === 'production' ? 'esbuild' : false,
+      minify: mode === 'production' ? ('esbuild' as const) : false,
     },
     server: {
       port: 3000,
